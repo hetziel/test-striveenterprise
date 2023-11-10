@@ -1,0 +1,601 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+    <link rel="stylesheet" href="./assets/css/app.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+        integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Righteous&display=swap"
+        rel="stylesheet">
+
+</head>
+
+<body>
+    <div class="app-body">
+        <header class="app-header text-white d-flex align-items-center" main>
+            <div class="font-weight-bold">
+                <span class="mr-5 app-contact">
+                    <a href="tel:123456789">
+                        <i class="fa-solid fa-phone mr-1"></i>
+                        123 456 789
+                    </a>
+                </span>
+                <span>
+                    <a href="mailto:info@email.com">
+                        <i class="fa-solid fa-envelope mr-1"></i>
+                        info@email.com
+                    </a>
+                </span>
+            </div>
+
+            <ul class="app-nav d-none">
+                <li><a href="#tmp">The Most Popular</a></li>
+                <li><a href="#au">About Us</a></li>
+                <li><a href="#benefits">Benefits</a></li>
+                <li><a href="#careers">Careers</a></li>
+                <li><a href="#team">Team</a></li>
+                <li><a href="#testimonials">Testimonials</a></li>
+                <li><a href="#footer">Contact Us</a></li>
+            </ul>
+
+            <div class="app-social">
+                <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+            </div>
+        </header>
+
+        <button menu><i class="fa-solid fa-bars"></i></button>
+
+        <section class="app-section-welcome" id="welcome" data-animation>
+
+
+            <video autoplay loop muted class="app-hero-video">
+                <source src="./assets/video/hero-video.mp4" type="video/mp4">
+            </video>
+            <div class="pl-5 pr-5 app-logo-container">
+                <img src="./assets/img/LOGO.png" alt="logo" class="app-logo">
+
+                <ul class="app-nav" style="max-width: 700px;">
+                    <li><a href="#tmp">The Most Popular</a></li>
+                    <li><a href="#au">About Us</a></li>
+                    <li><a href="#benefits">Benefits</a></li>
+                    <li><a href="#careers">Careers</a></li>
+                    <li><a href="#team">Team</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#footer">Contact Us</a></li>
+                </ul>
+            </div>
+
+            <div class="row mt-5">
+                <div class="col-12 col-md-7 mt-5 app-md-center">
+                    <h2 class="bold-800 text-white">Welcome at the
+                        University</h2>
+                    <hr md style="width: 270px;">
+                    <h1 class="bold-800 text-white mb-4">We are are
+                        online <br> platform to make learning</h1>
+                    <div class="app-md-center d-flex mb-4">
+                        <button class="btn app-btn bold-600" md>Get Now</button>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 app-md-flex-center">
+                    <div class="app-card-register card">
+                        <h5 class="card-title app-md-center">Register Now!</h5>
+
+                        <div class="card-body px-5 pt-4">
+                            <div class="app-forms">
+                                <div class="row">
+                                    <div class="col-12 p-2">
+                                        <input type="text" class="app-form-input w-100" placeholder="Name">
+                                    </div>
+                                    <div class="col-6 p-2">
+                                        <input type="email" class="app-form-input w-100" placeholder="Email">
+                                    </div>
+                                    <div class="col-6 p-2">
+                                        <input type="number" class="app-form-input w-100" placeholder="Phone">
+                                    </div>
+                                    <div class="col-12 p-2">
+                                        <input type="text" class="app-form-input w-100" placeholder="Subject">
+                                    </div>
+                                    <div class="col-12 p-2">
+                                        <textarea rows="3" class="w-100" placeholder="Message"></textarea>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <button class="btn app-btn" sm>Send</button>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-section" id="tmp">
+
+            <div class="app-title mb-5" data-animation="fade">
+                <h4 class="bold-700">The most popular</h4>
+                <hr light style="width: 300px;">
+                <h3 class="bold-700 app-subtitle">Know what we offer you</h3>
+            </div>
+
+            <br>
+            <div class="row app-offer-container" b-scroll>
+                <div class="col-6 col-md-3 p-2 app-md-flex-center">
+                    <div class="app-card-offer card">
+                        <img src="./assets/img/IMAGE CURSO 1.jpg" class="app-offer-img">
+
+                        <hr dual>
+                        <div class="card-body px-3 pt-2 pb-4">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <p class="text-center app-offer-title">Design
+                                    for the web with Adobe Photoshop</p>
+
+                                <button class="btn app-btn" sm>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 p-2 app-md-flex-center">
+                    <div class="app-card-offer card">
+                        <img src="./assets/img/IMAGE CURSO 2.jpg" class="app-offer-img">
+
+                        <hr dual>
+                        <div class="card-body px-3 pt-2 pb-4">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <p class="text-center app-offer-title">Design
+                                    for the web with Adobe Photoshop</p>
+
+                                <button class="btn app-btn" sm>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 p-2 app-md-flex-center">
+                    <div class="app-card-offer card">
+                        <img src="./assets/img/IMAGE CURSO 3.jpg" class="app-offer-img">
+
+                        <hr dual>
+                        <div class="card-body px-3 pt-2 pb-4">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <p class="text-center app-offer-title">Design
+                                    for the web with Adobe Photoshop</p>
+
+                                <button class="btn app-btn" sm>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-6 col-md-3 p-2 app-md-flex-center">
+                    <div class="app-card-offer card">
+                        <img src="./assets/img/IMAGE CURSO 4.jpg" class="app-offer-img">
+
+                        <hr dual>
+                        <div class="card-body px-3 pt-2 pb-4">
+                            <div class="d-flex justify-content-center flex-wrap">
+                                <p class="text-center app-offer-title">Design
+                                    for the web with Adobe Photoshop</p>
+
+                                <button class="btn app-btn" sm>Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center my-5">
+                    <button outline class="btn app-btn bold-600 mt-4" md>View
+                        More</button>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="app-section-au pb-5" id="au">
+
+            <div class="app-title" data-animation="fade">
+                <h4 class="bold-700 text-white">About Us</h4>
+                <hr light style="width: 300px;">
+            </div>
+
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <h3 class="bold-700 text-white mb-5">Know everything we do
+                        for
+                        you</h3>
+
+                    <p class="text-white app-md-center" style="font-size: 20px;">The
+                        university is
+                        a physical place, buildings,
+                        laboratories, libraries... where students and teachers
+                        meet.
+                        The university is also a human-social system, that is, a
+                        set
+                        of elements that are related and
+                        interact with
+                        each other.</p>
+
+                    <div class="app-md-flex-center app-md-none">
+                        <button class="btn app-btn bold-600 mt-4" md>Read More</button>
+                    </div>
+
+                </div>
+
+                <div class="col-12 col-md-6 d-flex justify-content-center">
+
+                    <div class="app-img-au mt-2">
+                        <img src="./assets/img/IMAGE ABOUT US.jpg" alt="About Us">
+                    </div>
+
+                </div>
+
+                <div class="col-12 app-md-flex-center app-md-show">
+                    <button class="btn app-btn bold-600 mt-4" md>Read More</button>
+                </div>
+
+
+            </div>
+        </section>
+        <section class="app-section-benefits" id="benefits">
+            <div class="row">
+                <div class="col-6 col-md-3 d-flex justify-content-center flex-wrap">
+                    <div class="app-benefits-icon">
+                        <img src="./assets/img/ICONO 1.png" alt>
+                    </div>
+                    <p class="app-benefits-title">Excellent content</p>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center flex-wrap">
+                    <div class="app-benefits-icon">
+                        <img src="./assets/img/ICONO 2.png" alt>
+                    </div>
+                    <p class="app-benefits-title">Experts Instructors</p>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center flex-wrap">
+                    <div class="app-benefits-icon">
+                        <img src="./assets/img/ICONO 3.png" alt>
+                    </div>
+                    <p class="app-benefits-title">The Best Professionals</p>
+                </div>
+                <div class="col-6 col-md-3 d-flex justify-content-center flex-wrap">
+                    <div class="app-benefits-icon">
+                        <img src="./assets/img/ICONO 4.png" alt>
+                    </div>
+                    <p class="app-benefits-title">Countless Courses</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="app-section-careers" id="careers">
+            <div class="app-title" data-animation="fade">
+                <h4 class="bold-700">Careers</h4>
+                <hr light style="width: 300px;">
+            </div>
+            <h3 class="bold-700 mb-5 app-subtitle">Explore the different careers
+                we
+                offer</h3>
+
+            <div class="row  app-careers">
+                <div class="col-12 col-md-7 row">
+                    <div class="col-12 col-md-6 app-career-container">
+                        <div style="height:300px;background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                       url('./assets/img/IMAGE  CATEGORY ADMINISTRATION.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Aministration</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 app-career-container">
+                        <div style="height:300px;background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                       url('./assets/img/IMAGE\ \ CATEGORY\ ACCOUNTING.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Accounting</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 app-career-container">
+                        <div style="height:135px; background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                        url('./assets/img/IMAGE\ \ CATEGORY\ ARCHITECTURE.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Architecture</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-5 row">
+                    <div class="col-12 app-career-container">
+                        <div style="height:135px;background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                        url('./assets/img/IMAGE  CATEGORY MATHEMATICS.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Mathematics</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 app-career-container">
+                        <div style="height:135px;background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                        url('./assets/img/IMAGE  CATEGORY PROGRAMMING.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Programming</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 app-career-container">
+                        <div style="height:135px;background-image: linear-gradient(rgba(0, 77, 122, 0.4), rgba(0, 77, 122, 0.4)),
+                        url('./assets/img/IMAGE  CATEGORY BIOLOGY.jpg')">
+                            <div class="app-career-title">
+                                <div>
+                                    <span>Biology</span>
+                                    <button class="btn app-btn" bd sm>Explore</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-12 d-flex justify-content-center my-5">
+                    <button outline class="btn app-btn bold-600 mt-4" md>View
+                        More</button>
+                </div>
+            </div>
+
+        </section>
+        <section class="app-section-team" id="team">
+            <div class="app-title" data-animation="fade">
+                <h4 class="bold-700">Our Team</h4>
+                <hr light style="width: 300px;">
+            </div>
+            <h3 class="bold-700 mb-5 app-subtitle">Meet the best professionals</h3>
+
+            <div class="app-md-flex-center" style="position: relative;">
+                <button class="app-btn-slide" previous><i class="fa-solid fa-chevron-left"></i></button>
+                <button class="app-btn-slide" next><i class="fa-solid fa-chevron-right"></i></button>
+                <div class="app-slider">
+                    <div class="row app-slider-inner">
+                        <div class="col-3">
+                            <div class="app-team-card">
+                                <div app-head>
+                                    <div class="app-team-photo">
+                                        <img src="./assets/img/IMAGE TEAM 1.jpg">
+                                    </div>
+                                </div>
+                                <div app-body>
+                                    <span>John Smith</span>
+                                    <span>Match Teacher</span>
+                                    <button outline class="btn app-btn bold-600 mt-4" sm>Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="app-team-card">
+                                <div app-head>
+                                    <div class="app-team-photo">
+                                        <img src="./assets/img/IMAGE TEAM 2.jpg">
+                                    </div>
+                                </div>
+                                <div app-body>
+                                    <span>Dave Morgan</span>
+                                    <span>Match Teacher</span>
+                                    <button outline class="btn app-btn bold-600 mt-4" sm>Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="app-team-card">
+                                <div app-head>
+                                    <div class="app-team-photo">
+                                        <img src="./assets/img/IMAGE TEAM 4.jpg">
+                                    </div>
+                                </div>
+                                <div app-body>
+                                    <span>Zara Smith</span>
+                                    <span>Biology Teacher</span>
+                                    <button outline class="btn app-btn bold-600 mt-4" sm>Read More</button>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-3">
+                            <div class="app-team-card">
+                                <div app-head>
+                                    <div class="app-team-photo">
+                                        <img src="./assets/img/IMAGE TEAM 3.jpg">
+                                    </div>
+                                </div>
+                                <div app-body>
+                                    <span>Jimena Soto</span>
+                                    <span>Match Teacher</span>
+                                    <button outline class="btn app-btn bold-600 mt-4" sm>Read More</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-12 d-flex justify-content-center my-5">
+                            <button class="btn app-btn bold-600 mt-4" md>View
+                                More</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </section>
+
+
+        <section class="app-section-testimonials d-flex justify-content-center" id="testimonials">
+            <div class="app-testimonials mb-5">
+                <div class="row">
+                    <div class="col-12 col-md-6">
+                        <span class="font-1">View Testimonials</span>
+                        <p class="bold-700 font-3">FOR US IT IS VERY IMPORTANT TO KNOW THE OPINIONS OF OUR CLIENTS</p>
+                    </div>
+                    <div class="col-12 col-md-6 app-md-flex-center">
+                        <div class="app-slider-testimonial-container">
+                            <div class="app-slider-testimonial">
+                                <button class="app-slider-testimonial-play">
+                                    <div><i class="fa-solid fa-play"></i></div>
+                                </button>
+
+                                <div class="app-slider-testimonial-inner">
+                                    <div>
+                                        <img class="app-testimonials-img" src="./assets/img/person_4.jpg">
+                                        <div class="app-testimonials-title">
+                                            <span>Jeff Freshman</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img class="app-testimonials-img" src="./assets/img/person_1.jpg">
+                                        <div class="app-testimonials-title">
+                                            <span>Markus Stark</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img class="app-testimonials-img" src="./assets/img/person_2.jpg">
+                                        <div class="app-testimonials-title">
+                                            <span>Kendall Smith</span>
+                                        </div>
+                                    </div>
+                                    <div>
+                                        <img class="app-testimonials-img" src="./assets/img/person_3.jpg">
+                                        <div class="app-testimonials-title">
+                                            <span>Julia Henderson</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="app-slider-testimonial-inner">
+
+                                </div>
+
+                                <video loop class="app-testimonial-video">
+                                </video>
+
+                            </div>
+                            <div class="app-slider-testimonial-btns">
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="app-footer" id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-3 app-logo-container">
+                        <img src="./assets/img/LOGO.png" alt="logo" class="app-logo">
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h5 class="app-text-primary mb-5">Quick Links</h5>
+
+                        <ul class="app-footer-list">
+                            <li><a href="#tmp">The Most Popular</a></li>
+                            <li><a href="#au">About Us</a></li>
+                            <li><a href="#benefits">Benefits</a></li>
+                            <li><a href="#careers">Careers</a></li>
+                            <li><a href="#team">Team</a></li>
+                            <li><a href="#testimonials">Testimonials</a></li>
+                            <li><a href="#footer">Contact Us</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h5 class="app-text-primary mb-5">Contact Info</h5>
+
+                        <ul class="app-footer-list">
+                            <li>
+                                <a href="tel:123456789">
+                                    <i class="fa-solid fa-phone mr-2"></i>
+                                    123 456 789
+                                </a>
+                            </li>
+                            <li>
+                                <a href="mailto:info@email.com">
+                                    <i class="fa-solid fa-envelope mr-2"></i>
+                                    info@email.com
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://maps.app.goo.gl/o6aN6JMcBZBdARav8" target="_blank"><i
+                                        class="fa-solid fa-map mr-2"></i> Address, United States</a>
+                            </li>
+                        </ul>
+
+                        <div class="app-social mb-5">
+                            <a href="https://youtube.com" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                            <a href="https://instagram.com" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                            <a href="https://facebook.com" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-3">
+                        <h5 class="app-text-primary">Newsletter</h5>
+
+                        <p class="text-white font-2">Receive all our promotions and notifications</p>
+
+                        <div class="app-input-newsletter">
+                            <input type="text">
+                            <button>Submit</button>
+                        </div>
+                    </div>
+
+                    <br>
+                    <hr white>
+
+                    <div class="d-flex justify-content-between w-100">
+                        <p class="text-white mb-0">© Copyright University. All Right Reserved
+                            <br>
+                            This website was designed and developed by
+                            Josesilvera.com
+                        </p>
+                        <a href="https://josesilvera.com" target="_blank">
+                            <img class="app-logo-silvera" src="./assets/img/logo Silvera Enterprises.png">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./scripts.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,113 @@
+.app-btn {
+    background-color: var(--app-primary);
+    border-radius: 25px !important;
+    color: white;
+    font-family: var(--font);
+    display: flex !important;
+    align-items: center;
+    justify-content: center;
+
+    --bd: 0 0 0 2px inset
+}
+
+.app-btn:hover,
+.app-btn-slide:hover {
+    background-color: var(--app-primary-hover);
+    box-shadow: 0 0 0 3px white, 0 0 0 6px var(--app-primary);
+}
+
+.app-btn[outline] {
+    color: var(--app-primary);
+    border: 2px solid var(--app-primary) !important;
+    background-color: white;
+}
+
+.app-btn[outline]:hover {
+    color: var(--app-primary-hover);
+    border: 2px solid var(--app-primary-hover) !important;
+
+}
+
+.app-btn[sm] {
+    width: 120px;
+    height: 30px;
+}
+
+.app-btn[bd] {
+    border: 1px solid white;
+}
+
+.app-btn[md] {
+    width: 220px;
+    height: 55px;
+    font-size: 24px;
+    border: 1px solid white;
+}
+
+.app-btn-slide {
+    width: 32px;
+    height: 32px;
+    border: none;
+    background: white;
+    color: var(--app-primary);
+    border-radius: 99px;
+    transition: .2s;
+    outline: none !important;
+    position: absolute;
+    z-index: 2;
+    border: 2px solid var(--app-primary);
+    display: none;
+}
+
+.app-btn-slide[previous] {
+    left: 10%;
+    top: 40%;
+}
+
+.app-btn-slide[next] {
+    right: 10%;
+    top: 40%;
+}
+
+.app-btn-slide:hover {
+    color: white;
+}
+
+button[slider] {
+    width: 12px;
+    height: 12px;
+    border: none;
+    outline: none !important;
+    margin: 0.25rem;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button[slider][active] {
+    background: var(--app-primary);
+}
+
+button[menu]>* {
+    border-radius: 10px;
+    background: var(--app-primary);
+    padding: 10px;
+    transition: 0.2s;
+}
+
+button[menu]>*:hover {
+    background: var(--app-primary-hover);
+}
+
+button[menu] {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 26px;
+    padding: 20px;
+    position: fixed;
+    outline: none !important;
+    display: none;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}

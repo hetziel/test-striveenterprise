@@ -1,0 +1,216 @@
+/* Configs */
+@import url("./_preset.css");
+@import url("./_buttons.css");
+@import url("./_scroll.css");
+/* Header */
+@import url("./_header.css");
+
+
+/* Sections */
+@import url("./_tmp_section.css");
+@import url("./_about_us_section.css");
+@import url("./_benefits_section.css");
+@import url("./_carrer_section.css");
+@import url("./_team_section.css");
+@import url("./_testimonial_section.css");
+/* Footer */
+@import url("./_footer.css");
+
+/* Mobile Configs */
+@import url("./_mediaquery.css");
+
+
+/* App Styles */
+.app-body {
+  overflow-x: hidden;
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.app-hero-video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: -1;
+  object-fit: cover;
+}
+
+.app-nav {
+  display: flex;
+  list-style: none;
+  padding: 0 2rem;
+  font-size: 20px;
+  font-weight: 500;
+  color: white !important;
+  font-family: var(--font);
+  margin: 0;
+  flex-wrap: wrap;
+  max-width: 400px;
+}
+
+.app-section-welcome .app-nav a {
+  color: white !important;
+}
+
+.app-section-welcome .app-nav a:hover {
+  color: var(--app-primary-hover) !important;
+}
+
+.app-nav a {
+  transition: 0.2s;
+}
+
+.app-social {
+  flex-wrap: nowrap;
+  display: flex;
+}
+
+.app-social a {
+  color: white;
+}
+
+.app-header a:hover,
+.app-header a:hover *,
+.app-nav a:hover,
+.app-social a:hover {
+  color: var(--app-primary);
+}
+
+.app-nav>li {
+  padding-right: 1rem;
+}
+
+.app-nav>li:last-child {
+  padding-right: 0;
+}
+
+[class^="app-section"] {
+  padding: 4rem 5rem 0 5rem;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+  background-position: center !important;
+  width: 100%;
+}
+
+.app-section-welcome {
+  background: linear-gradient(rgba(0, 98, 155, 0.35), rgba(0, 98, 155, 0.35));
+  height: 100vh;
+  position: relative;
+  width: 100%;
+}
+
+.app-logo-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.app-logo {
+  width: 120px;
+  object-fit: contain;
+}
+
+/* Social links */
+.app-social a {
+  margin-right: 1rem;
+}
+
+.app-social a:last-child {
+  margin: 0;
+}
+
+[class^="app-card"] {
+  overflow: hidden;
+  border: none !important;
+  border-radius: 10px !important;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.4);
+}
+
+.app-card-register {
+  width: 400px;
+}
+
+.app-card-register .card-title {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #02557d;
+  height: 3rem;
+  color: white;
+  border-bottom: 5px solid var(--app-primary);
+  margin: 0;
+}
+
+.app-card-register input[type="text"],
+.app-card-register input[type="email"],
+.app-card-register input[type="number"],
+.app-card-register textarea {
+  border-radius: 12px;
+  border: none;
+  background: #e5e5e5;
+  outline: none;
+  padding: 4px 1.5rem;
+  height: 30px;
+  margin: 0.25rem;
+  font-weight: 500;
+}
+
+.app-card-register textarea {
+  height: revert !important;
+  overflow: hidden;
+}
+
+.app-card-register input[type="text"]::placeholder,
+.app-card-register input[type="email"]::placeholder,
+.app-card-register input[type="number"]::placeholder,
+.app-card-register textarea::placeholder {
+  color: a3a3a3;
+  font-weight: bold;
+  font-family: var(--font);
+  font-size: 16px;
+  resize: none;
+}
+
+.app-forms {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.app-forms>.row {
+  margin-right: -9px;
+}
+
+.app-title {
+  display: list-item;
+}
+
+.app-title,
+.app-subtitle {
+  color: var(--app-green);
+}
+
+.app-title::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+  font-size: 34px;
+  color: #ffb749;
+}
+
+[data-animation="fade"] {
+  opacity: 0;
+  transform: translate(-10%);
+  --opacity: 1;
+  --transform: translate(0);
+}
+
+.unset {
+  opacity: var(--opacity);
+  transform: var(--transform);
+  transition: 0.2s ease-in;
+}

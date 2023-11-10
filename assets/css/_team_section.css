@@ -1,0 +1,45 @@
+.app-section-team {
+    background-color: var(--app-gray);
+}
+
+.app-team-card {
+    width: 200px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.app-team-card>[app-head] {
+    background: linear-gradient(rgba(0, 98, 155, 0.35), rgba(0, 98, 155, 0.35)),
+        url("../img/IMAGE\ BACKGROUND\ CARD\ TEAM\ \ \(3\).jpg");
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-position: center !important;
+    position: relative;
+    height: 86px;
+}
+
+.app-team-card>[app-body] {
+    background: white;
+    padding-top: 60px;
+    padding-bottom: 2rem;
+
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: start;
+}
+
+.app-team-card .app-team-photo {
+    display: flex;
+    justify-content: center;
+    bottom: -55%;
+    position: absolute;
+    width: 100%;
+}
+
+.app-team-card img {
+    width: 90px;
+    border-radius: 999px;
+    border: 5px solid white;
+    box-sizing: content-box;
+}

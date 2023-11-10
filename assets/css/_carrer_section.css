@@ -1,0 +1,34 @@
+.app-career-container>div {
+    position: relative;
+    background-repeat: no-repeat !important;
+    background-size: 100%;
+    background-position: top !important;
+    border-radius: 20px;
+    margin: 0.5rem;
+    width: 100%;
+    transition: 5s background-size;
+}
+
+.app-career-container>div:hover {
+    background-size: 110%;
+}
+
+.app-career-title {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    top: 0;
+    right: 0;
+    padding: 2rem;
+    display: flex;
+    word-break: break-all;
+    align-items: end;
+    color: white;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.app-career-title span {
+    margin-bottom: 0.75rem;
+    display: block;
+}

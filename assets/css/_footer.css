@@ -1,0 +1,64 @@
+.app-footer {
+    background: var(--app-secondary);
+    padding: 2rem 2rem;
+}
+
+.app-footer-list {
+    list-style: none;
+    padding: 0;
+}
+
+.app-footer-list li {
+    margin-bottom: 1rem;
+}
+
+.app-footer-list a {
+    color: white;
+    text-decoration: none;
+}
+
+.app-footer-list a:hover {
+    color: var(--app-primary);
+}
+
+.app-input-newsletter {
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    background: white;
+    padding: 2px;
+    border: 2px transparent solid;
+    transition: 0.2s ease border;
+}
+
+.app-input-newsletter:focus-within {
+    border: 2px var(--app-primary) solid;
+}
+
+.app-input-newsletter input {
+    background: none;
+    border: none;
+    outline: 0;
+    width: 100%;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.app-input-newsletter button {
+    border: none;
+    background: var(--app-primary);
+    border-radius: 12px;
+    color: white;
+    padding: 0 1.25rem;
+    transition: 0.2s ease background;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.app-input-newsletter button:hover {
+    background: var(--app-primary-hover);
+}
+
+.app-logo-silvera {
+    height: 30px;
+}

@@ -1,0 +1,78 @@
+/* Preset */
+:root {
+    --font: Montserrat;
+    --app-primary: #ffba48;
+    --app-primary-hover: #f5980c;
+    --app-orange: #d1532e;
+    --app-secondary: #02557d;
+    --app-green: #003549;
+    --app-gray: #efefef;
+}
+
+body {
+    font-family: var(--font) !important;
+}
+
+* {
+    scroll-behavior: smooth !important;
+}
+a{
+    text-decoration: none !important;
+}
+
+/* Fonts */
+.font-1{
+    font-size: 8px;
+}
+.font-2{
+    font-size: 14px;
+}
+.font-3{
+    font-size: 24px;
+}
+
+.bold-500 {
+    font-weight: 500 !important;
+}
+
+.bold-700 {
+    font-weight: 700 !important;
+}
+
+.bold-800 {
+    font-weight: 800 !important;
+}
+
+.app-text-primary{
+    color: var(--app-primary);
+}
+
+hr[md] {
+    border-top: 5px solid var(--app-primary);
+    margin: 1.5rem 0;
+    display: inline-block;
+}
+
+hr[light] {
+    margin: 0.8rem 0;
+    border-top: 5px solid #ffd69f;
+}
+
+hr[white] {
+    margin: 0.8rem 0;
+    border-top: 1px solid white;
+    width: 100%;
+}
+
+hr[dual] {
+    border-top: 5px solid var(--app-green);
+    border-bottom: 5px solid var(--app-primary);
+    margin: 0;
+}
+
+.app-md-none{
+    display: revert;
+  }
+  .app-md-show{
+    display: none ;
+  }

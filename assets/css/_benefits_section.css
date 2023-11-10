@@ -1,0 +1,35 @@
+.app-section-benefits {
+    background: linear-gradient(rgba(0, 98, 155, 0.35), rgba(0, 98, 155, 0.35)),
+        url("../img/BACKGROUND\ BENEFITS.jpg");
+    height: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.app-benefits-icon {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s transform;
+}
+
+.app-benefits-icon:hover {
+    transform: scale(1.05);
+}
+
+.app-benefits-icon img {
+    width: 60%;
+}
+
+.app-benefits-title {
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: center;
+    margin: 1rem 1rem 0 1rem;
+}

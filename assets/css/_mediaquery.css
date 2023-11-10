@@ -1,0 +1,125 @@
+@media (max-width: 768px) {
+  .app-header {
+    width: 250px;
+    height: 100vh;
+    padding: 2rem;
+    flex-direction: column;
+    filter: opacity(0);
+    transform: translateX(-250px);
+    z-index: 40;
+    justify-content: start !important;
+  }
+
+  .app-header>div,
+  .app-header>.app-nav {
+    margin-bottom: 2rem;
+  }
+
+  .app-header>.app-nav {
+    display: flex !important;
+  }
+
+  .app-header .app-contact {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .app-header.contracted {
+    filter: opacity(1);
+    transform: translateX(0);
+  }
+
+  button[menu] {
+    display: block !important;
+  }
+
+  .app-section-welcome {
+    padding: 2rem 1rem !important;
+    height: auto !important;
+  }
+
+  [class^="app-section"] {
+    padding: 2rem 1rem !important;
+  }
+
+  .app-section-welcome .app-nav {
+    display: none;
+  }
+
+  .app-logo-container {
+    text-align: center;
+    justify-content: center !important;
+  }
+
+  .app-md-center {
+    text-align: center;
+    justify-content: center;
+  }
+
+  .app-md-flex-center {
+    justify-content: center;
+    display: flex;
+  }
+
+  .app-md-none {
+    display: none !important;
+  }
+
+  .app-md-show {
+    display: flex !important;
+  }
+
+  .app-section-benefits {
+    height: auto !important;
+  }
+
+  .app-slider {
+    overflow: hidden;
+    width: 200px;
+  }
+
+  .app-slider-inner {
+    display: flex;
+    flex-wrap: nowrap !important;
+    flex-direction: row;
+    transition: 0.2s;
+  }
+
+  .app-slider-inner>div {
+    flex: 1 0 auto;
+    max-width: 100%;
+  }
+
+  .app-btn-slide {
+    display: block;
+  }
+
+  .app-footer .app-logo-container {
+    display: none;
+  }
+
+  .app-nav {
+    flex-direction: column;
+    padding: 0 !important;
+    width: 100%;
+    font-size: 18px !important;
+  }
+
+  .app-career-container>div {
+    height: 150px !important;
+  }
+
+  .app-offer-container {
+    flex-wrap: wrap !important;
+  }
+}
+
+@media (min-width: 768px) {
+  .app-slider-inner {
+    transform: none !important;
+  }
+  .app-offer-container>div {
+    width: 240px;
+    max-width: 240px;
+}
+}

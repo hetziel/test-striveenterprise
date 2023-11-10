@@ -1,0 +1,29 @@
+.app-header {
+    background-color: var(--app-secondary);
+    height: 40px;
+    padding: 0 6rem;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+    transition: .5s ease-in-out;
+    justify-content: space-between;
+    left: 0;
+    right: 0;
+}
+
+.app-header * {
+    color: white;
+}
+
+.app-header[main] {
+    background-color: white;
+}
+
+.app-header[main] * {
+    color: var(--app-secondary);
+}
+
+.app-header .app-nav {
+    font-size: 12px;
+}

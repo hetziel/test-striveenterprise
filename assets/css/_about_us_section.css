@@ -1,0 +1,18 @@
+.app-section-au {
+    background: var(--app-secondary);
+}
+
+.app-img-au {
+    width: 446px;
+    height: 316px;
+    border-radius: 10px;
+    border: 6px solid #b6d1e2;
+    z-index: 0;
+    position: relative;
+}
+
+.app-img-au img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}

@@ -1,0 +1,25 @@
+.app-card-offer {
+    width: 210px;
+    transition: 0.5s transform;
+}
+
+.app-card-offer:hover {
+    transform: scale(1.05);
+}
+
+.app-offer-img {
+    width: 210px;
+    height: 180px;
+}
+
+.app-offer-title {
+    font-size: 12px;
+    font-weight: 700;
+    color: var(--app-green);
+}
+
+.app-offer-container {
+    overflow: auto;
+    flex-wrap: nowrap !important;
+    justify-content: center;
+}
