@@ -1,23 +1,23 @@
 /* Configs */
-@import url("./_preset.css");
-@import url("./_buttons.css");
-@import url("./_scroll.css");
+@import url("./preset.css");
+@import url("./buttons.css");
+@import url("./scroll.css");
 /* Header */
-@import url("./_header.css");
+@import url("./header.css");
 
 
 /* Sections */
-@import url("./_tmp_section.css");
-@import url("./_about_us_section.css");
-@import url("./_benefits_section.css");
-@import url("./_carrer_section.css");
-@import url("./_team_section.css");
-@import url("./_testimonial_section.css");
+@import url("./tmp_section.css");
+@import url("./about_us_section.css");
+@import url("./benefits_section.css");
+@import url("./carrer_section.css");
+@import url("./team_section.css");
+@import url("./testimonial_section.css");
 /* Footer */
-@import url("./_footer.css");
+@import url("./footer.css");
 
 /* Mobile Configs */
-@import url("./_mediaquery.css");
+@import url("./mediaquery.css");
 
 
 /* App Styles */
